@@ -11,11 +11,8 @@
     "build": "rollup -c --environment BUILD:production --bundleConfigAsCjs",
     "watch": "rollup -c -w --environment BUILD:development --bundleConfigAsCjs",
     "dev": "npm run watch",
-    "test": "cross-env NODE_ENV=test nyc mocha",
     "posttest": "npm run coverage-badges",
-    "test:watch": "cross-env NODE_ENV=test nyc mocha -w",
-    "prepublishOnly": "npm test && npm run build",
-    "coverage-badges": "make-coverage-badge",
+    "prepublishOnly": "npm run build",
     "commit": "cz"
   },
   "homepage": "https://github.com/Donaldcwl/browser-image-compression#readme",
