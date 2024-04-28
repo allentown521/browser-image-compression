@@ -15,13 +15,13 @@
     "prepublishOnly": "npm run build",
     "commit": "cz"
   },
-  "homepage": "https://github.com/Donaldcwl/browser-image-compression#readme",
+  "homepage": "https://github.com/allentown521/browser-image-compression#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Donaldcwl/browser-image-compression"
+    "url": "https://github.com/allentown521/browser-image-compression"
   },
   "bugs": {
-    "url": "https://github.com/Donaldcwl/browser-image-compression/issues"
+    "url": "https://github.com/allentown521/browser-image-compression/issues"
   },
   "keywords": [
     "image compression",
