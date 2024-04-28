@@ -1,5 +1,5 @@
 {
-  "name": "browser-image-compression",
+  "name": "browser-image-compression-extension",
   "version": "2.0.2",
   "description": "Compress images in the browser",
   "main": "dist/browser-image-compression.js",
